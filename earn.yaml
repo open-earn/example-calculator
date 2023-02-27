@@ -1,0 +1,8 @@
+version: 0.1
+
+tasks:
+  - name: Calculator Task
+    short-description: Simple calculator
+    long-description: Implementation of calculator
+    path: src/calculator.py
+    test-cmd: make test/calculator
